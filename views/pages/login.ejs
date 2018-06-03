@@ -1,29 +1,48 @@
-
 <% include ../partials/header %>
 
 
-<main>
+	<main>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-center mb-5"></h2>
+				<div class="row">
+					<div class="col-md-4 mx-auto">
+						<div class="card border-secondary">
+							<div class="card-header">
+								<h5 class="mb-0 my-2 text-center">Login</h5>
+							</div>
+							<div class="card-body">
+								<form class="form" role="form" autocomplete="off">
+									<div class="row">
+										<div class="col-md-11">
+											<div class="form-group">
+												<label for="email">Email</label>
+												<input type="text" class="form-control" id="email" placeholder="vipul@gmail.com">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-11">
+											<div class="form-group">
+												<label for="password">Password</label>
+												<input type="text" class="form-control" id="password" placeholder="Password">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-11">
+											<div class="form-group">
+												<button type="submit" class="btn btn-info btn-md float-right">Login</button>
+											</div>
+										</div>
+									</div>
 
-	<div class="row col-lg-offset-3">
-		<div class="col-md-6">
-			<div class="">
-				<div class="card-block">
-					<div class="card-title">Login</div><hr/>
-					<form method="get">
-						<div class="form-group">
-							<label>User name</label>
-							<input type="text" name ="username" class="form-control" placeholder="User name" />
+								</form>
+							</div>
 						</div>
-						<div class="form-group">
-							<label>Password</label>
-							<input type="text" class="form-control" name="password" placeholder="Password " />
-						</div>
-						<button type="submit" class="btn btn-info">Login</button>
-						<button type="reset" class="btn btn-warning">Reset</button>
-					</form>
-				</div> 
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</main>
-<% include ../partials/footer %>
+	</main>
+	<% include ../partials/footer %>
